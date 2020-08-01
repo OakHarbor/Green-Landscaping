@@ -349,7 +349,7 @@
     #reasons:before {
         content: '';
         position: absolute;
-        background: url("/images//about-strip.png");
+        background: url("/images/strip-desktop.jpg");
         height: 140%;
         right: 0px;
         width: 80%;
@@ -479,7 +479,7 @@
 
     #hero {
         height: 500px;
-        background: url("/images/image-19.jpg");
+        background: url("/images/about-desktop.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
@@ -577,7 +577,7 @@
     #reasons:before {
         content: '';
         position: absolute;
-        background: url("/images//about-strip.png");
+        background: url("/images/about-strip.png");
         height: 140%;
         right: 0px;
         width: 80%;
@@ -588,7 +588,7 @@
     #reasons:after {
         content: '';
         position: absolute;
-        background: url("/images/image-4.jpg");
+        background: url("/images/reasons.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: right;

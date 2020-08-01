@@ -151,6 +151,7 @@
     width: 100%;
     -webkit-box-shadow: 0 0 40px rgba(0,0,0,.1);
     box-shadow: 0 0 40px rgba(0,0,0,.1);
+    border-radius: 5px;
 }
 
 .about-content p {
@@ -212,11 +213,22 @@
 <--- -------------------------- -*/
 
 #about-strip {
-    background: url("/images/about-strip.png");
+    background: url("/images/strip-mobile.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
+}
+
+#about-strip:before {
+    content: '';
+    background: #000;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .6;
 }
 
 .strip-content h2 {
@@ -224,18 +236,21 @@
     text-align: center;
     font-size: 1.875em;
     margin-bottom: 50px;
+    position: relative;
+    z-index: 100;
 }
 
 .strip-content button {
     display: block;
     margin: auto;
-    margin-bottom: 180px;
+    position: relative;
+    z-index: 100;
 }
 
-#about-strip svg {
-    width: 100%;
+#about-strip img {
+    width: 450px;
     position: absolute;
-    bottom: -1px;
+    display: none;
 }
 
 /*-- -------------------------- -->
@@ -284,6 +299,7 @@
 <--- -------------------------- -*/
 
 #more-reviews {
+    padding-top: 0;
     padding-bottom: 0;
 }
 
@@ -361,13 +377,11 @@
         justify-content: center;
     }
 
-    .strip-content button {
-        margin-bottom: 240px;
-    }
-
     #about-strip svg {
         width: 400px;
     }
+
+
 
 }
 
@@ -497,6 +511,7 @@
     .strip-content button {
         margin: auto;
         margin-left: 0;
+        margin-bottom: 0;
     }
 
     #about-strip svg {
@@ -593,7 +608,7 @@
 
     #hero {
         height: 500px;
-        background: url("/images/image-23.jpg");
+        background: url("/images/about-desktop.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
@@ -717,6 +732,7 @@
     /*--- -------------------------- -*/
 
     #about-strip {
+        background: url("/images//strip-desktop.jpg");
         padding: 50px 0 !important;
         margin-top: 100px;
         margin-bottom: 50px;
@@ -748,11 +764,15 @@
         margin-left: 0;
     }
 
-    #about-strip svg {
-        width: 800px;
+    #about-strip img {
+        display: block;
+        width: 450px;
         height: auto !important;
-        right: 100px;
-        bottom: 0;
+        right: 270px;
+        bottom: -70px;
+        border-radius: 5px;
+        -webkit-box-shadow: 0 0 40px rgba(0,0,0,.1);
+        box-shadow: 0 0 40px rgba(0,0,0,.1);
     }
 
     /*-- -------------------------- -->
