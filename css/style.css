@@ -2054,6 +2054,7 @@ iframe {
 
     .content-left img {
         width: 400px;
+        height: auto;
     }
 
     .content-left img:nth-child(2) {
