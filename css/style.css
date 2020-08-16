@@ -1559,6 +1559,54 @@ iframe {
         width: 800px;
         height: 800px;
     }
+    /*-- -------------------------- -->
+    <---           CONTENT          -->
+    <--- -------------------------- -*/
+
+    .content-container {
+        margin-bottom: 50px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        height: auto;
+    }
+
+    .content-left {
+        width: 400px;
+        height: 400px;
+        margin-bottom: 50px;
+    }
+
+    .content-left img {
+        width: 300px;
+        border: 10px solid #fff;
+    }
+
+    .content-left img:nth-child(2) {
+        left: 350px;
+    }
+
+    .content-services {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+
+    .service-item {
+        width: 45%;
+    }
 
     /*-- -------------------------- -->
     <---          QUALITIES         -->
@@ -1989,6 +2037,47 @@ iframe {
         position: absolute;
         width: 100%;
         bottom: -3px;
+    }
+
+    /*-- -------------------------- -->
+    <---          CONTENT           -->
+    <--- -------------------------- -*/
+
+    .content-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+
+    .content-left img {
+        width: 400px;
+    }
+
+    .content-left img:nth-child(2) {
+        left: 450px;
+    }
+
+    .content-right {
+        width: 450px;
+    }
+
+    .content-services {
+        margin: 50px auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+
+    .service-item {
+        width: 45%;
     }
 
     
