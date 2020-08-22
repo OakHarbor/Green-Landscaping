@@ -213,7 +213,7 @@
 <--- -------------------------- -*/
 
 #about-strip {
-    background: url("/images/strip-mobile.jpg");
+    background: url("/images/call-strip-mobile.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -768,11 +768,12 @@
         display: block;
         width: 450px;
         height: auto !important;
-        right: 270px;
+        right: 170px;
         bottom: -70px;
+        border: 10px solid #fff;
         border-radius: 5px;
-        -webkit-box-shadow: 0 0 40px rgba(0,0,0,.1);
-        box-shadow: 0 0 40px rgba(0,0,0,.1);
+        -webkit-box-shadow: 0 0 40px rgba(0,0,0,.35);
+        box-shadow: 0 0 40px rgba(0,0,0,.35);
     }
 
     /*-- -------------------------- -->
