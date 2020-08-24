@@ -1012,6 +1012,22 @@ a i:hover {
     font-weight: 15px;
 }
 
+.social {
+    display: flex;
+    justify-content: space-between;
+    width: 130px;
+}
+
+.social img {
+    margin-top: 30px;
+    width: 30px;
+    height: auto;
+}
+
+.social img:hover {
+    opacity: .8;
+}
+
 
 /* Tablets */
 @media screen and (min-width: 500px) and (max-width: 1024px) {
